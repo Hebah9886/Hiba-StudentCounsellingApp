@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_menu1"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item android:id="@+id/m_view_ap_menu"
+            android:icon="@drawable/baseline_preview_24"
+            android:title="View Appointment"/>
+
+        <item android:id="@+id/m_view_feed_menu"
+            android:icon="@drawable/baseline_feedback_24"
+            android:title="View Feedbacks"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Counsellor Account">
+            <menu>
+                <item android:id="@+id/add_coun_menu"
+                    android:icon="@drawable/baseline_add_task_24"
+                    android:title="Add Counsellor Account"/>
+
+                <item android:id="@+id/delete_coun_menu"
+                    android:icon="@drawable/baseline_delete_24"
+                    android:title="Delete Counsellor Details"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Account">
+            <menu>
+
+                <item android:id="@+id/m_delete_menu"
+                    android:icon="@drawable/baseline_delete_24"
+                    android:title="Delete Account"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item android:id="@+id/m_view_menu"
+                    android:icon="@drawable/baseline_preview_24"
+                    android:title="View Profile"/>
+
+                <item android:id="@+id/m_edit_menu"
+                    android:icon="@drawable/baseline_edit_note_24"
+                    android:title="Edit Profile"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Authentication">
+            <menu>
+                <item android:id="@+id/m_logout_menu"
+                    android:icon="@drawable/baseline_logout_24"
+                    android:title="Logout"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "753866782912",
+    "project_id": "hiba-studentcounsellinga-79793",
+    "storage_bucket": "hiba-studentcounsellinga-79793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753866782912:android:0956404f3568e114209525",
+        "android_client_info": {
+          "package_name": "com.example.hiba_studentcounsellingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxcLIq0JKYnC5WqkCud1EcSjOLiy8FEHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

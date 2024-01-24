@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/v_s_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Student Name: "
+            android:textColor="@color/write"
+            android:textSize="18sp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/v_s_contact1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Student Contact No. : "
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/v_c_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Number of Blood Bottles: "
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/v_c_quali1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Qualification: "
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/v_c_experience1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Experience: "
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+        <TextView
+            android:id="@+id/v_c_expertise1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Appointment Time "
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/v_date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Scheduled Date: "
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/v_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Scheduled Time: "
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

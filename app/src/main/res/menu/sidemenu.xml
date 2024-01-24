@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_menu"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item android:id="@+id/add_by_name_menu"
+            android:icon="@drawable/baseline_search_24"
+            android:title="Search Counsellor by name"/>
+
+        <item android:id="@+id/add_by_exp_menu"
+            android:icon="@drawable/baseline_search_24"
+            android:title="Search Counsellor by Exp"/>
+
+        <item android:id="@+id/add_ap_menu"
+            android:icon="@drawable/baseline_preview_24"
+            android:title="Add Appointment"/>
+
+        <item android:id="@+id/add_feedback_menu"
+            android:icon="@drawable/baseline_feedback_24"
+            android:title="Add Feedback"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Appointments">
+            <menu>
+                <item android:id="@+id/update_ap_menu"
+                    android:icon="@drawable/baseline_preview_24"
+                    android:title="View Appointment"/>
+
+                <item android:id="@+id/delete_ap_menu"
+                    android:icon="@drawable/baseline_delete_24"
+                    android:title="Delete Appointment"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Account">
+            <menu>
+
+                <item android:id="@+id/delete_menu"
+                    android:icon="@drawable/baseline_delete_24"
+                    android:title="Delete Account"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item android:id="@+id/view_menu"
+                    android:icon="@drawable/baseline_preview_24"
+                    android:title="View Profile"/>
+
+                <item android:id="@+id/edit_menu"
+                    android:icon="@drawable/baseline_edit_note_24"
+                    android:title="Edit Profile"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Authentication">
+            <menu>
+                <item android:id="@+id/logout_menu"
+                    android:icon="@drawable/baseline_logout_24"
+                    android:title="Logout"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
